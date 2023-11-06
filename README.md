@@ -1,29 +1,11 @@
-# vite-project
+# The Legend of Neverland - Database Project
 
-This template should help get you started developing with Vue 3 in Vite.
+This is my first in my list of projects for getting back into coding. This particular project focuses on showcasing data (Fairies, Tier Lists, Game Guides, etc ) from one of my favourite games at the moment "The Legend of Neverland." Utilizing Vue, Firebase, and Sass. 
 
-## Recommended IDE Setup
+## A Passion Project
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+![alt text](https://neverland.game-ark.com/images/img_big_01.jpg)
 
-## Customize configuration
+## Project Schedule
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Day One: Navigation Bar design, Global css styles, basic file structuring.
