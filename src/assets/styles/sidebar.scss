@@ -1,0 +1,52 @@
+:root {
+    --sidebar-background: #0D0D28;
+    --sidebar-btn-wrapper: #19193F;
+    --sidebar-color: #A9A9F4;
+    --sidebar-btn-hover: #171768;
+    --sidebar-color-hover: #6C9CFF;
+}
+.line-split {
+    width: 100%;
+    height: 1px;
+    background-color: #383860;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.sidebar-link {
+    padding: 13px;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--sidebar-btn-wrapper);
+    border-radius: 10px;
+    transition: 0.3s ease;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.sidebar-link:hover {
+    background-color: var(--sidebar-btn-hover);
+    color: var(--sidebar-color-hover);
+
+    path{
+    fill: var(--sidebar-color-hover);
+}
+h1 {
+    color: var(--sidebar-color-hover);
+}
+}
+.sidebar-link svg path{
+    fill: var(--sidebar-color);
+}
+.sidebar-link svg {
+    width: 30px;
+}
+.brand {
+}
+.brand svg {
+    width: 30px;
+    background-color: var(--sidebar-btn-wrapper);
+    padding: 13px;
+    border-radius: 10px;
+}
+.brand svg path {
+    fill: white;
+}
