@@ -1,0 +1,42 @@
+.fairy__grid {
+    width: 100%;
+    height: auto;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+}
+.grid__filter__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.filter__btn {
+    height: 60px;
+    min-width: 100px;
+    background-color: #191937;
+    border-radius: 5px;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.filter__btn:hover {
+
+}
+.filter__title {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.grid__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 4em;
+    row-gap: 3em;
+    column-gap: 3em;
+}
+.grid__card {
+    min-height: 400px;
+    background-color: #BC9F5E;
+}
